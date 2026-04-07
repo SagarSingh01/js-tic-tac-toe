@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC TAC TOE</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="shortcut icon" href="./Logo/Logo-Tic Tac Toe Game.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>TIC TAC TOE</h1>
+    </header>
+    <div class="win-game hide">
+        <div id="msg"></div>
+        <button onclick="newGame()">New Game</button>
+    </div>
+    <div class="game">
+        <div class="container">
+            <div><button></button></div>
+            <div><button></button></div>
+            <div><button></button></div>
+            <div><button></button></div>
+            <div><button></button></div>
+            <div><button></button></div>
+            <div><button></button></div>
+            <div><button></button></div>
+            <div><button></button></div>
+        </div>
+    </div>
+    <div id="reset-container">
+        <button onclick="newGame()" class="reset">Reset Game</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
