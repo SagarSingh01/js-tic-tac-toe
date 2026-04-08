@@ -59,7 +59,7 @@ boxes.forEach((box) => {
         checkWinner();
         Count++;
         let isWinner = checkWinner();
-        if (Count === '9' && !isWinner) {
+        if (Count === 9 && !isWinner) {
             drawGame();
         }
     });
